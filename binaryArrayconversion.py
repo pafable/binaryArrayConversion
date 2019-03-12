@@ -17,7 +17,7 @@ def decimal():
     lengthOfLineOrder = array1.__len__()
 
     #if the length of array1 is less than 8, this while loop will add 0's until there are 8 items in array1
-    while lengthOfLineOrder < 8:
+    while lengthOfLineOrder < basePair.__len__():
         array1.insert(0, 0)
         lengthOfLineOrder = array1.__len__()
     
