@@ -42,8 +42,3 @@ def decimal():
     return addedDecimal
 
 print(decimal())
-Collapse
-
-
-
-
